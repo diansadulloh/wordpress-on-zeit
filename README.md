@@ -2,8 +2,11 @@
 
 ## Setting Up Your MySQL Database for WordPress on ZEIT Now
 > Create a MySQL Database on your MySQL Remote server
+
 > Create a New User for Your MySQL Database
+
 > Grab The Hostname of Your MySQL Deployment
+
 > Downloading Your ca.pem File
 
 ## Setting Up WordPress 5 on ZEIT Now
