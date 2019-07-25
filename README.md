@@ -147,4 +147,4 @@ require_once(ABSPATH . 'wp-settings.php');
   ...
   ```
 
-Finally we created a ca.pem file downloaded from ScaleGrid. This is necessary only when using MySQL over TLS.   That’s it! Then run now to deploy or git push if you configured Now + GitHub.
+Finally we created a ca.pem file downloaded from ScaleGrid. This is necessary only when using MySQL over TLS.   That’s it! Then run now to deploy or git push if you configured Now + GitHub. 
