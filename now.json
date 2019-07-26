@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "regions": ["oma1"],
+    "regions": ["iad1"],
     "builds": [
       { "src": "wp-config.php", "use": "@now/wordpress" }
     ],
@@ -21,6 +21,9 @@
       "WPSALT6": "@wpsalt6",
       "WPSALT7": "@wpsalt7",
       "WPSALT8": "@wpsalt8"
+    },
+    "github": {
+      "autoAlias": false
     }
   }
   
