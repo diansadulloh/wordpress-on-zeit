@@ -7,7 +7,7 @@
     "routes": [
       { "src": "/wp-admin/?", "dest": "index.php" },
       { "src": ".*\\.php$", "dest": "index.php" },
-      { "src": "//*.@(eot|otf|ttf|ttc|woff|font.css|css|js|ico|png|jpg|jpeg)", "headers": {"cache-control": "s-maxage=960000"}
+      { "src": "//*.@(eot|otf|ttf|ttc|woff|font.css|css|js|ico|png|jpg|jpeg)", "headers": {"cache-control": "s-maxage=604800"}
     ],
     "env": {
       "DB_NAME": "@wordpress_db_name",
