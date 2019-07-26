@@ -1,7 +1,8 @@
 {
     "version": 2,
     "builds": [
-      { "src": "wp-config.php", "use": "@now/wordpress" }
+      { "src": "wp-config.php", "use": "@now/wordpress" },
+      { "src": "wp-content/**", "use": "@now/static" }
     ],
     "routes": [
       { "src": "/wp-admin/?", "dest": "index.php" },
